@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovare Contabilidade - Trabalho Acadêmico</title>
+    
+    <!-- Pré-conexão para Google Fonts (melhora performance ao carregar fontes externas) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importa as fontes Poppins e Roboto usadas no layout -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Arquivo CSS principal (verifique se style.css existe na mesma pasta) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho: contém a barra de navegação principal -->
+    <header class="header">
+        <nav class="navbar container">
+            <!-- Logo: link para a seção inicial da página -->
+            <a href="#inicio" class="logo">
+                <img src="img/logo-innovare2.png" alt="Logo da Innovare Contabilidade">
+            </a>
+            
+            <!-- Menu de navegação com âncoras para seções internas -->
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Seção hero/inicial: destaque da proposta de valor -->
+        <section id="inicio" class="hero-section">
+            <div class="container">
+                <h2>Soluções em Contabilidade para o Crescimento do seu Negócio</h2>
+                <p>Atendimento personalizado, segurança tributária e eficiência fiscal.</p>
+                <!-- Botão âncora para seção de contato -->
+                <a href="#contato" class="btn">Agende uma Visita</a>
+            </div>
+        </section>
+
+        <!-- Seção de serviços: descreve os principais serviços oferecidos -->
+        <section id="servicos" class="services-section">
+            <div class="container">
+                <h2>O que Fazemos</h2>
+                <p class="section-intro">Foco em eficiência, transparência e suporte estratégico.</p>
+                
+                <!-- Grid de cartões de serviços -->
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Abertura de Empresas</h3>
+                        <p>Formalização segura desde o início.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Escrita Fiscal e Contábil</h3>
+                        <p>Cumprimento de obrigações e controle.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Folha de Pagamento e RH</h3>
+                        <p>Gestão trabalhista completa e humanizada.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Consultoria Tributária</h3>
+                        <p>Planejamento para redução legal de impostos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção "Sobre": texto institucional e imagem da equipe -->
+        <section id="sobre" class="about-section">
+            <div class="container about-flex">
+                <div class="about-text">
+                    <h2>Quem Somos</h2>
+                    <p>A Innovare atua em Porto Ferreira desde 2018, oferecendo serviços contábeis, fiscais e trabalhistas com foco na excelência e segurança tributária.</p>
+                </div>
+                <div class="about-image">
+                    <!-- Verifique o caminho da imagem; usar imagens otimizadas para web -->
+                    <img src="img/equipe-innovare.png" alt="Foto da equipe Innovare">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de contato: formulário simples sem backend (action="#" = placeholder) -->
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form action="#" method="POST">
+                    <!-- Nome: campo obrigatório -->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <!-- E-mail: validação básica pelo tipo "email" -->
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <!-- Mensagem: textarea para texto livre -->
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                    
+                    <!-- Botão de envio; adicionar JS ou integração com backend conforme necessário -->
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé: informações e logotipo em tamanho reduzido -->
+    <footer class="footer">
+        <div class="container">
+            <img src="img/logo-innovare-rodape.png" alt="Logo Innovare" class="footer-logo">
+            <p>&copy; 2025 - Desenvolvido por ADEEPCode</p>
+            <p>Innovare Contabilidade (CNPJ: 29.728.044/0001-14)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
