@@ -89,3 +89,48 @@ h2 { font-family: 'Poppins', sans-serif; font-size: 32px; color: #0B3C5D; margin
     .about-flex { flex-direction: column; }
     h2 { font-size: 28px; }
 }
+
+/* ---------------------------------- */
+/* 7. BOTÃO FLUTUANTE WHATSAPP        */
+/* ---------------------------------- */
+
+.whatsapp-float {
+/*  
+    'position: fixed' é o que faz o botão flutuar.
+    Ele "tira" o elemento do layout normal e o fixa na 
+    tela do navegador, mesmo quando rolamos a página.
+*/
+position: fixed;
+
+/* Posição: 20px do canto inferior, 20px do canto direito */
+bottom: 20px;
+right: 20px;
+
+/* 'z-index' define a "profundidade" do elemento.
+    Um número alto garante que ele fique na FRENTE 
+    de todos os outros conteúdos.
+*/
+z-index: 100;
+}
+
+.whatsapp-float img {
+width: 60px;  /* Tamanho do ícone */
+height: 60px;
+border-radius: 50%; /* Deixa a imagem perfeitamente redonda */
+
+/* Uma sombra leve para dar destaque */
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+/* Uma transição suave para o efeito de 'hover' */
+transition: transform 0.2s;
+}
+
+/* Efeito de 'hover' (passar o mouse) */
+.whatsapp-float:hover img {
+/*  
+    Este é um efeito simples de 'hover'.
+    Ele aumenta o botão levemente (10%) 
+    para mostrar que é interativo.
+*/
+transform: scale(1.1);
+}
