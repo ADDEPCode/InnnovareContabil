@@ -1,136 +1,251 @@
 /* ---------------------------------- */
 /* 1. ESTILOS GERAIS (Reset e Body)   */
 /* ---------------------------------- */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Roboto', sans-serif; line-height: 1.6; background-color: #FFFFFF; color: #333; }
-.container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
 
 /* ---------------------------------- */
 /* 2. CABEÇALHO E NAVEGAÇÃO           */
 /* ---------------------------------- */
-.header { background-color: #FFFFFF; border-bottom: 1px solid #EEEEEE; padding: 15px 0; position: sticky; top: 0; z-index: 10; }
-.navbar { display: flex; justify-content: space-between; align-items: center; }
-
-/* MUDANÇA AQUI: Estilo para a imagem do logo */
-.logo img {
-    height: 50px; /* Define a altura do logo */
-    width: auto; /* A largura se ajusta automaticamente */
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-.nav-menu { list-style: none; display: flex; }
-.nav-item { margin-left: 20px; }
-.nav-link { text-decoration: none; color: #333; font-weight: 500; }
-.nav-link:hover { color: #D62828; }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* : Estilo para a imagem do logo */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #D62828;
+}
 
 /* ---------------------------------- */
 /* 3. ESTILOS DAS SEÇÕES              */
 /* ---------------------------------- */
-section { padding: 60px 0; }
-.services-section { background-color: #F5F5F5; }
-.contact-section { background-color: #F5F5F5; }
+section {
+    padding: 60px 0;
+}
 
-/* MUDANÇA AQUI: Hero Section com imagem de fundo */
+.services-section,
+.contact-section {
+    background-color: #F5F5F5;
+}
+
+/* : Hero Section com imagem de fundo */
 .hero-section {
-    /*  
-        Aqui usamos uma imagem de fundo com um gradiente escuro por cima.
-        Isso garante que o texto branco fique legível.
-    */
     background-image: linear-gradient(rgba(11, 60, 93, 0.8), rgba(11, 60, 93, 0.7)), url('img/hero-background.jpg');
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-
+    background-size: cover;
+    background-position: center;
     color: #FFFFFF;
     text-align: center;
     padding: 80px 0;
 }
 
-h2 { font-family: 'Poppins', sans-serif; font-size: 32px; color: #0B3C5D; margin-bottom: 20px; }
-.hero-section h2 { color: #FFFFFF; }
-.hero-section p { font-size: 18px; margin-bottom: 30px; }
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #0B3C5D;
+    margin-bottom: 20px;
+}
+
+.hero-section h2 {
+    color: #FFFFFF;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
 /* ---------------------------------- */
 /* 4. COMPONENTES (Botões, Cards)     */
 /* ---------------------------------- */
-.btn { display: inline-block; background-color: #D62828; color: #FFFFFF; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: 600; border: none; cursor: pointer; }
-.btn:hover { background-color: #b02121; }
-.services-grid { display: flex; gap: 20px; }
-.service-card { background-color: #FFFFFF; border: 1px solid #DDDDDD; border-radius: 5px; padding: 25px; flex: 1; }
-.service-card h3 { font-family: 'Poppins', sans-serif; color: #0B3C5D; margin-bottom: 10px; }
-.about-flex { display: flex; align-items: center; gap: 30px; }
-.about-text { flex: 1; }
-.about-image { flex: 1; }
-.about-image img { max-width: 60%; border-radius: 5px; }
+.btn {
+    display: inline-block;
+    background-color: #D62828;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b02121;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 25px;
+    flex: 1;
+}
+
+.service-card h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #0B3C5D;
+    margin-bottom: 10px;
+}
+
+.about-flex {
+    display: block;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-text,
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 30%;
+    border-radius: 5px;
+}
 
 /* ---------------------------------- */
 /* 5. FORMULÁRIO E RODAPÉ             */
 /* ---------------------------------- */
-.contact-section form { max-width: 500px; margin: 0 auto; }
-.contact-section label { display: block; margin-top: 15px; font-weight: 500; }
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-section label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
 .contact-section input,
-.contact-section textarea { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #CCCCCC; border-radius: 5px; }
-.contact-section button { margin-top: 20px; }
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
 
-.footer { background-color: #0B3C5D; color: #AAAAAA; text-align: center; padding: 30px 0; }
+.contact-section button {
+    margin-top: 20px;
+}
 
-/* MUDANÇA AQUI: Estilo para o logo no rodapé */
+.footer {
+    background-color: #0B3C5D;
+    color: #AAAAAA;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* : Estilo para o logo no rodapé */
 .footer-logo {
-    height: 50px; /* Um pouco menor que o do header */
-    margin-bottom: 15px; /* Espaço entre o logo e o texto */
+    height: 50px;
+    margin-bottom: 15px;
 }
 
 /* ---------------------------------- */
 /* 6. RESPONSIVIDADE (BÁSICA)         */
 /* ---------------------------------- */
 @media (max-width: 768px) {
-    .navbar { flex-direction: column; gap: 15px; }
-    .nav-menu { flex-direction: column; text-align: center; width: 100%; }
-    .nav-item { margin: 5px 0; }
-    .services-grid { flex-direction: column; }
-    .about-flex { flex-direction: column; }
-    h2 { font-size: 28px; }
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    .services-grid {
+        flex-direction: column;
+    }
+
+    .about-flex {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
 }
 
 /* ---------------------------------- */
 /* 7. BOTÃO FLUTUANTE WHATSAPP        */
 /* ---------------------------------- */
-
 .whatsapp-float {
-/*  
-    'position: fixed' é o que faz o botão flutuar.
-    Ele "tira" o elemento do layout normal e o fixa na 
-    tela do navegador, mesmo quando rolamos a página.
-*/
-position: fixed;
-
-/* Posição: 20px do canto inferior, 20px do canto direito */
-bottom: 20px;
-right: 20px;
-
-/* 'z-index' define a "profundidade" do elemento.
-    Um número alto garante que ele fique na FRENTE 
-    de todos os outros conteúdos.
-*/
-z-index: 100;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
 }
 
 .whatsapp-float img {
-width: 60px;  /* Tamanho do ícone */
-height: 60px;
-border-radius: 50%; /* Deixa a imagem perfeitamente redonda */
-
-/* Uma sombra leve para dar destaque */
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-
-/* Uma transição suave para o efeito de 'hover' */
-transition: transform 0.2s;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
 }
 
-/* Efeito de 'hover' (passar o mouse) */
 .whatsapp-float:hover img {
-/*  
-    Este é um efeito simples de 'hover'.
-    Ele aumenta o botão levemente (10%) 
-    para mostrar que é interativo.
-*/
-transform: scale(1.1);
+    transform: scale(1.1);
 }
