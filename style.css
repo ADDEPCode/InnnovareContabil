@@ -200,7 +200,7 @@ h2 {
 /* ---------------------------------- */
 /* 6. RESPONSIVIDADE (BÁSICA)         */
 /* ---------------------------------- */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .navbar {
         flex-direction: column;
         gap: 15px;
@@ -228,7 +228,7 @@ h2 {
         font-size: 28px;
     }
 }
-
+*7
 /* ---------------------------------- */
 /* 7. BOTÃO FLUTUANTE WHATSAPP        */
 /* ---------------------------------- */
