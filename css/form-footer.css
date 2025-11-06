@@ -1,40 +1,41 @@
 /* ---------------------------------- */
 /* 5. FORMULÁRIO E RODAPÉ             */
 /* ---------------------------------- */
+
 .contact-section form {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: left;
+    max-width: 500px; /* Largura máxima do form */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: left; /* Alinha texto à esquerda */
 }
 
 .contact-section label {
-    display: block;
-    margin-top: 15px;
-    font-weight: 500;
+    display: block; /* Labels em nova linha */
+    margin-top: 15px; /* Espaço superior */
+    font-weight: 500; /* Peso da fonte */
 }
 
 .contact-section input,
 .contact-section textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaço interno */
+    margin-top: 5px; /* Espaço superior */
+    border: 1px solid #CCCCCC; /* Borda sutil */
+    border-radius: 5px; /* Cantos arredondados */
 }
 
 .contact-section button {
-    margin-top: 20px;
+    margin-top: 20px; /* Espaço acima do botão */
 }
 
 .footer {
-    background-color: #0B3C5D;
-    color: #AAAAAA;
-    text-align: center;
-    padding: 30px 0;
+    background-color: #0B3C5D; /* Fundo azul escuro */
+    color: #AAAAAA; /* Texto cinza claro */
+    text-align: center; /* Alinha ao centro */
+    padding: 30px 0; /* Espaço vertical */
 }
 
 /* Logo no rodapé */
 .footer-logo {
-    height: 50px;
-    margin-bottom: 15px;
+    height: 50px; /* Altura fixa */
+    margin-bottom: 15px; /* Espaço inferior */
 }

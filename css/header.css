@@ -1,42 +1,44 @@
+/* Seção de estilo do cabeçalho */
 /* ---------------------------------- */
 /* 2. CABEÇALHO E NAVEGAÇÃO           */
 /* ---------------------------------- */
+
 .header {
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #EEEEEE;
-    padding: 15px 0;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    background-color: #FFFFFF; /* Fundo branco */
+    border-bottom: 1px solid #EEEEEE; /* Borda inferior sutil */
+    padding: 15px 0; /* Espaçamento vertical */
+    position: sticky; /* Fixa ao rolar */
+    top: 0; /* Alinha ao topo */
+    z-index: 10; /* Garante visibilidade */
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaça itens */
+    align-items: center; /* Alinha verticalmente */
 }
 
 /* Logo */
 .logo img {
-    height: 50px;
-    width: auto;
+    height: 50px; /* Altura fixa */
+    width: auto; /* Largura proporcional */
 }
 
 .nav-menu {
-    list-style: none;
-    display: flex;
+    list-style: none; /* Remove marcadores */
+    display: flex; /* Layout flexível */
 }
 
 .nav-item {
-    margin-left: 20px;
+    margin-left: 20px; /* Espaço entre itens */
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    text-decoration: none; /* Remove sublinhado */
+    color: #333; /* Cor do texto */
+    font-weight: 500; /* Peso da fonte */
 }
 
 .nav-link:hover {
-    color: #D62828;
+    color: #D62828; /* Cor ao passar mouse */
 }

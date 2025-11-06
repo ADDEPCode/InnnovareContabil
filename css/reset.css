@@ -1,22 +1,24 @@
+/* Seção de reset e estilos base */
 /* ---------------------------------- */
 /* 1. ESTILOS GERAIS (Reset e Body)   */
 /* ---------------------------------- */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;      /* Remove margens */
+    padding: 0;     /* Remove preenchimentos */
+    box-sizing: border-box; /* Inclui padding/border na largura total */
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: #FFFFFF;
-    color: #333;
+    font-family: 'Roboto', sans-serif; /* Define fonte principal */
+    line-height: 1.6;      /* Altura da linha */
+    background-color: #FFFFFF; /* Fundo branco */
+    color: #333;           /* Cor do texto */
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
+    max-width: 960px;      /* Largura máxima do conteúdo */
+    margin: 0 auto;        /* Centraliza horizontalmente */
+    padding: 0 20px;       /* Espaçamento lateral */
+    text-align: center;    /* Alinha texto ao centro */
 }

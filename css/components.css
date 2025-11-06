@@ -1,53 +1,54 @@
 /* ---------------------------------- */
 /* 4. COMPONENTES (Botões, Cards)     */
 /* ---------------------------------- */
+
 .btn {
-    display: inline-block;
-    background-color: #D62828;
-    color: #FFFFFF;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
+    display: inline-block; /* Comportamento inline com propriedades de bloco */
+    background-color: #D62828; /* Cor de fundo vermelha */
+    color: #FFFFFF; /* Texto branco */
+    padding: 12px 24px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Cantos arredondados */
+    font-weight: 600; /* Peso da fonte */
+    border: none; /* Remove borda */
+    cursor: pointer; /* Cursor de clique */
 }
 
 .btn:hover {
-    background-color: #b02121;
+    background-color: #b02121; /* Cor mais escura no hover */
 }
 
 .services-grid {
-    display: flex;
-    gap: 20px;
+    display: flex; /* Layout flexível */
+    gap: 20px; /* Espaço entre cards */
 }
 
 .service-card {
-    background-color: #FFFFFF;
-    border: 1px solid #DDDDDD;
-    border-radius: 5px;
-    padding: 25px;
-    flex: 1;
+    background-color: #FFFFFF; /* Fundo branco */
+    border: 1px solid #DDDDDD; /* Borda sutil */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 25px; /* Espaço interno */
+    flex: 1; /* Distribuição igual */
 }
 
 .service-card h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #0B3C5D;
-    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif; /* Fonte do título */
+    color: #0B3C5D; /* Cor azul */
+    margin-bottom: 10px; /* Espaço inferior */
 }
 
 .about-flex {
-    display: block;
-    align-items: center;
-    gap: 30px;
+    display: block; /* Layout em bloco */
+    align-items: center; /* Alinhamento vertical */
+    gap: 30px; /* Espaço entre elementos */
 }
 
 .about-text,
 .about-image {
-    flex: 1;
+    flex: 1; /* Distribuição igual */
 }
 
 .about-image img {
-    max-width: 30%;
-    border-radius: 5px;
+    max-width: 30%; /* Largura máxima */
+    border-radius: 5px; /* Cantos arredondados */
 }

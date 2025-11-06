@@ -1,31 +1,33 @@
 /* ---------------------------------- */
 /* 6. RESPONSIVIDADE (BÁSICA)         */
 /* ---------------------------------- */
+
+/* Estilos para telas menores que 768px */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: column; /* Menu em coluna */
+        gap: 15px; /* Espaço entre itens */
     }
 
     .nav-menu {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
+        flex-direction: column; /* Links em coluna */
+        text-align: center; /* Centraliza texto */
+        width: 100%; /* Largura total */
     }
 
     .nav-item {
-        margin: 5px 0;
+        margin: 5px 0; /* Espaço vertical entre links */
     }
 
     .services-grid {
-        flex-direction: column;
+        flex-direction: column; /* Serviços em coluna */
     }
 
     .about-flex {
-        flex-direction: column;
+        flex-direction: column; /* Sobre em coluna */
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 28px; /* Título menor */
     }
 }
