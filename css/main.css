@@ -1,0 +1,24 @@
+/* ---------------------------------- */
+/* ARQUIVO PRINCIPAL (IMPORTA TUDO)   */
+/* ---------------------------------- */
+
+/* 1. Estilos gerais */
+@import url('reset.css');
+
+/* 2. Cabeçalho e navegação */
+@import url('header.css');
+
+/* 3. Seções (hero, serviços, sobre, contato) */
+@import url('sections.css');
+
+/* 4. Componentes (botões, cards, layouts) */
+@import url('components.css');
+
+/* 5. Formulário e rodapé */
+@import url('form-footer.css');
+
+/* 6. Responsividade */
+@import url('responsive.css');
+
+/* 7. Botão flutuante WhatsApp */
+@import url('whatsapp.css');

@@ -1,0 +1,40 @@
+/* ---------------------------------- */
+/* 5. FORMULÁRIO E RODAPÉ             */
+/* ---------------------------------- */
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-section label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #0B3C5D;
+    color: #AAAAAA;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Logo no rodapé */
+.footer-logo {
+    height: 50px;
+    margin-bottom: 15px;
+}

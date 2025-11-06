@@ -1,0 +1,53 @@
+/* ---------------------------------- */
+/* 4. COMPONENTES (Botões, Cards)     */
+/* ---------------------------------- */
+.btn {
+    display: inline-block;
+    background-color: #D62828;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b02121;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 25px;
+    flex: 1;
+}
+
+.service-card h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #0B3C5D;
+    margin-bottom: 10px;
+}
+
+.about-flex {
+    display: block;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-text,
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    max-width: 30%;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+/* ---------------------------------- */
+/* 3. ESTILOS DAS SEÇÕES              */
+/* ---------------------------------- */
+
+/* Espaçamento padrão para todas as seções */
+section {
+    padding: 60px 0; /* Padding vertical de 60px */
+}
+
+/* Cor de fundo cinza claro para seções específicas */
+.services-section,
+.contact-section {
+    background-color: #F5F5F5; /* Fundo cinza claro */
+}
+
+/* Configuração da seção principal (hero) */
+.hero-section {
+    background-image: linear-gradient(rgba(11, 60, 93, 0.8), rgba(11, 60, 93, 0.7)), url('img/hero-background.jpg'); /* Gradiente sobre imagem */
+    background-size: cover; /* Imagem cobre toda área */
+    background-position: center; /* Centraliza a imagem */
+    color: #FFFFFF; /* Texto branco */
+    text-align: center; /* Alinhamento central */
+    padding: 80px 0; /* Padding vertical maior */
+}
+
+/* Estilo padrão para títulos de seção */
+h2 {
+    font-family: 'Poppins', sans-serif; /* Fonte principal */
+    font-size: 32px; /* Tamanho do título */
+    color: #0B3C5D; /* Cor azul institucional */
+    margin-bottom: 20px; /* Espaço após título */
+}
+
+/* Título específico da seção hero */
+.hero-section h2 {
+    color: #FFFFFF; /* Título em branco */
+}
+
+/* Texto da seção hero */
+.hero-section p {
+    font-size: 18px; /* Tamanho do texto */
+    margin-bottom: 30px; /* Espaço após parágrafo */
+}

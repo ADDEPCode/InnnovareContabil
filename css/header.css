@@ -1,0 +1,42 @@
+/* ---------------------------------- */
+/* 2. CABEÇALHO E NAVEGAÇÃO           */
+/* ---------------------------------- */
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #D62828;
+}
