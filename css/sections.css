@@ -15,7 +15,7 @@ section {
 
 /* Configuração da seção principal (hero) */
 .hero-section {
-    background-image: linear-gradient(rgba(11, 60, 93, 0.8), rgba(11, 60, 93, 0.7)), url('img/hero-background.jpg'); /* Gradiente sobre imagem */
+    background-image: linear-gradient(rgba(11, 60, 93, 0.8), rgba(11, 60, 93, 0.7)), url('../img/hero-background.jpg'); /* Gradiente sobre imagem */
     background-size: cover; /* Imagem cobre toda área */
     background-position: center; /* Centraliza a imagem */
     color: #FFFFFF; /* Texto branco */
